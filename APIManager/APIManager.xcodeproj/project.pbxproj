@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		968006B92BBF6D1500050513 /* APIManager.docc in Sources */ = {isa = PBXBuildFile; fileRef = 968006B82BBF6D1500050513 /* APIManager.docc */; };
 		968006BF2BBF6D1500050513 /* APIManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968006B42BBF6D1500050513 /* APIManager.framework */; };
-		968006C42BBF6D1500050513 /* APIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968006C32BBF6D1500050513 /* APIManagerTests.swift */; };
 		968006C52BBF6D1500050513 /* APIManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 968006B72BBF6D1500050513 /* APIManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		968006CF2BBF6D2F00050513 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968006CE2BBF6D2E00050513 /* APIManager.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		968006B72BBF6D1500050513 /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
 		968006B82BBF6D1500050513 /* APIManager.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = APIManager.docc; sourceTree = "<group>"; };
 		968006BE2BBF6D1500050513 /* APIManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		968006C32BBF6D1500050513 /* APIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerTests.swift; sourceTree = "<group>"; };
 		968006CE2BBF6D2E00050513 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +81,6 @@
 		968006C22BBF6D1500050513 /* APIManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				968006C32BBF6D1500050513 /* APIManagerTests.swift */,
 			);
 			path = APIManagerTests;
 			sourceTree = "<group>";
@@ -206,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968006C42BBF6D1500050513 /* APIManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
