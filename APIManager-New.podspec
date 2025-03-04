@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'APIManager-New'
-  s.version          = '0.1.0' # Or your desired version
+  s.version          = '0.1.2' # Or your desired version
   s.summary          = 'A framework for making API calls'
 
   s.description      = 'This project is creating a framework and exporting it through cocoapods, carthage and at last using SPM'
