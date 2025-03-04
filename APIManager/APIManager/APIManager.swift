@@ -42,9 +42,10 @@ public class ServiceManager {
                     do {
                         let parseData = try decoder.decode(T.self, from: data)
                         completionHandler(.success(parseData))
-                        
+                        return 
                     } catch let error {
                         completionHandler(.failure(error))
+                        return
                     }
                 }
                 completionHandler(.failure(error ?? customError))
