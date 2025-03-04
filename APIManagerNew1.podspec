@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "16.4"
   spec.license      = "MIT"
   spec.source       = { :git => "https://github.com/ptejas26/APIManager-New.git", :tag => spec.version.to_s }
-  spec.source_files  = "APIManager/**/*.{swift}"
+  spec.source_files  = "APIManager/**/*.swift"
 
-  spec.swift_version = "5.8.1"
+  spec.swift_version = "5.8"
   
 end
