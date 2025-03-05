@@ -1,6 +1,6 @@
 import PackageDescription
 
-let package = Package(
+/*let package = Package(
     name: "APIManager",
     platforms: [
         .macOS(.v11), .iOS(.v13)
@@ -26,5 +26,21 @@ let package = Package(
         //.testTarget(
             //name: "RippleViewTests",
             //dependencies: ["RippleView"]),
+    ]
+)
+*/
+
+import PackageDescription
+
+let package = Package(
+    name: "APIManager-New",
+    products: [
+       // .executable(name: "swiftformat", targets: ["CommandLineTool"]),
+        .library(name: "APIManager-New", targets: ["APIManagerNew"]),
+    ],
+    targets: [
+        //.target(name: "CommandLineTool", dependencies: ["SwiftFormat"], path: "CommandLineTool"),
+        .target(name: "APIManager", path: "APIManager/APIManager"),
+        //.testTarget(name: "SwiftFormatTests", dependencies: ["SwiftFormat"], path: "Tests"),
     ]
 )
