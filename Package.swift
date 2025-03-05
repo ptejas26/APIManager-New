@@ -41,6 +41,6 @@ let package = Package(
     targets: [
         //.target(name: "CommandLineTool", dependencies: ["SwiftFormat"], path: "CommandLineTool"),
         .target(name: "APIManager", path: "APIManager/APIManager"),
-        //.testTarget(name: "SwiftFormatTests", dependencies: ["SwiftFormat"], path: "Tests"),
+        .testTarget(name: "APIManagerTests", dependencies: ["APIManager"], path: "Tests"),
     ]
 )
